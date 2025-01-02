@@ -1,0 +1,249 @@
+body {
+    background-color: #D1D5DB !important;
+    margin: 0;
+    padding: 0;
+}
+
+.content-wrapper {
+    max-width: 1320px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    position: relative;
+    left: 5%;
+    top: -155px; 
+    z-index: 2; 
+    color: #fff; 
+}
+
+.content img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.content h5 {
+    color: #ffffff;
+}
+
+.content .btn {
+    margin-right: 10px;
+}
+
+.content .badge {
+    margin-right: 5px;
+}
+
+header {
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+}
+
+header .nav-link {
+    margin-right: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.banner {
+    height: 930px;
+}
+
+.banner img {
+    width: 100%;
+    object-fit: cover;
+}
+.abc{
+    display: block;
+    filter: brightness(0.7); /* Tối hình ảnh */
+}
+h5 {
+    font-size: 1.2rem;
+    color: #ddd;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.badge {
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    background-color: #ffc107;
+    color: #000;
+}
+
+.chapter-list .chapter-item {
+    padding: 0.5rem 0;
+}
+
+.chapter-item h6 {
+    font-size: 1rem;
+    margin: 0;
+    color: #000;
+    /* text-align: left; */
+}
+h6 {
+    text-align: left;
+}
+.chapter-item small {
+    font-size: 0.85rem;
+    /* text-align: left; */
+}
+small {
+    padding-right: 30px;
+    text-align: left;
+}
+
+.chapter-item .btn {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chapter-item .btn i {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.additional-info .list-unstyled li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.additional-info .list-unstyled img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.chapter-list .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.chapter-list .list-group-item {
+    border: none;
+    border-bottom: 1px solid #eee;
+    padding: 10px 15px;
+}
+
+.chapter-list h6 {
+    
+    font-size: 1rem;
+    margin: 0;
+    color: #333;
+
+}
+
+.chapter-list .text-muted {
+    font-size: 0.85rem;
+}
+
+.chapter-list .btn {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chapter-list .btn i {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.list-unstyled img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.list-unstyled a {
+    font-weight: 600;
+    color: #000;
+}
+
+.list-unstyled small {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.footer {
+    background-color: #f1f3f5;
+    border-top: 1px solid #e9ecef;
+}
+
+.footer-bottom {
+    background-color: #343a40;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+.footer-bottom ul {
+    padding: 0;
+    list-style: none;
+    margin: 1rem 0 0;
+}
+
+.footer-bottom ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-bottom ul li a {
+    font-size: 0.85rem;
+    color: #ccc;
+}
+
+.footer-bottom ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+#searchModal .modal-header {
+    background-color: #f8f9fa; /* Màu nền phần header */
+    border-bottom: 1px solid #dee2e6; /* Đường viền dưới */
+}
+
+#searchModal .modal-footer {
+    background-color: #f8f9fa; /* Màu nền phần footer */
+    border-top: 1px solid #dee2e6; /* Đường viền trên */
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
